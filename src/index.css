@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  align-items: center;
+  padding: 20px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.linkstrees{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+}
+.profile{
+  align-items: center;
+  text-align: center;
+  margin-top: -50px;
+}
+a{
+  text-decoration: none;
+  text-align: center;
+  padding: 24px 32px;
+  background-color: #EAECF0;
+  color: #101828;
+  margin: 14px 10%;
+  Width :80%;
+  Height : 22px;
+  border: 1px solid #EAECF0;
+  border-radius: 8px;
+}
+a:hover{
+  background-color: #D0D5DD;
+}
+#profile__img{
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+}
+.profileimage1{
+  position: relative;
+  left: 46px;
+}
+.profileimage2{
+  position: relative;
+  right: 42px;
+ opacity: 0; 
+ transition: all 0.7 ease;
+}
+.profileimage2:hover{
+  opacity: 1;
+}
+.sharebtn{
+  Width :40px;
+  Height : 40px ;
+  Top : 32px;
+  right : -428px;
+  position: relative;
+}
+
+.sharebtnn{
+  Width :240px;
+  opacity: 0;
+  Height : 62px ;
+  Top : 51px;
+  right :-240px;
+  position: relative;
+  transition: all 0.7 ease;
+}
+.sharebtnn:hover{
+  opacity: 1;
+}
+.socialIcons{
+  Width :100%;
+  Height : 70px;
+  justify-content: space-around;
+  text-align: center;
+}
+.socialIcons img{
+  width: 25px;
+  height: 25px;
+  margin: 20px;
+}
+
+footer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 48px 0px;
+  justify-content: space-between;
+}
+#footer1{
+  padding-left: 100px;
+  height: 200px;
+  width: 200px;
+}
+#footer2{
+  height: 200px;
+  width: 200px;
+}
+
+#footer3{
+  padding-right: 100px;
+  height: 200px;
+  width: 200px;
+}
+.morebtn{
+  display: none;
+}
+@media screen and (max-width:700px) {
+  .sharebtn{
+    display: none;
+  }
+  .morebtn{
+    display: block;
+    Width :40px;
+    Height : 40px ;
+    Top : 32px;
+    right: -300px;
+    position: relative;
+  }
+}
+@media screen and (max-width:880px) {
+  footer{
+    display: flex;
+    flex-direction: column;
+    justify-items: left;
+    align-items: flex-start;
+    padding-left: 10%;
+  }
+  #footer1 ,  #footer2 ,  #footer3  {
+    height: 60px;
+    padding: 0;
+    margin: 0;
+  }
+}
+.slack{
+  display: none;
+}
