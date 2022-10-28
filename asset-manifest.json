@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/danutibe07/Zuri-Project1.git/static/css/main.b8e019a3.css",
-    "main.js": "/danutibe07/Zuri-Project1.git/static/js/main.abc30226.js",
+    "main.js": "/danutibe07/Zuri-Project1.git/static/js/main.f9933e2a.js",
     "static/media/footer3.svg": "/danutibe07/Zuri-Project1.git/static/media/footer3.601ff0479d970c740e8b7d7ba7821548.svg",
     "static/media/img2.svg": "/danutibe07/Zuri-Project1.git/static/media/img2.859ee6c06a59d0cd5268053f028a09ce.svg",
     "static/media/img1.svg": "/danutibe07/Zuri-Project1.git/static/media/img1.0bf2cf9f59f9d289d55b9e6352476d64.svg",
@@ -14,10 +14,10 @@
     "static/media/icon.svg": "/danutibe07/Zuri-Project1.git/static/media/icon.8d9a7a1c3aa3824a2781dff6eb2e77e8.svg",
     "index.html": "/danutibe07/Zuri-Project1.git/index.html",
     "main.b8e019a3.css.map": "/danutibe07/Zuri-Project1.git/static/css/main.b8e019a3.css.map",
-    "main.abc30226.js.map": "/danutibe07/Zuri-Project1.git/static/js/main.abc30226.js.map"
+    "main.f9933e2a.js.map": "/danutibe07/Zuri-Project1.git/static/js/main.f9933e2a.js.map"
   },
   "entrypoints": [
     "static/css/main.b8e019a3.css",
-    "static/js/main.abc30226.js"
+    "static/js/main.f9933e2a.js"
   ]
 }
