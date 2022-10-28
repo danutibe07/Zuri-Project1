@@ -13,12 +13,12 @@ function App() {
     <div className="App">
     <div className="profile">
     <div>
-      <img className="sharebtn" src={image2} ></img> 
-      <img className="sharebtnn" src={image3} ></img>
-      <img className="morebtn" src={image9} ></img>
+      <img className="sharebtn" src={image2} alt="image2"></img> 
+      <img className="sharebtnn" src={image3} alt="image3"></img>
+      <img className="morebtn" src={image9} alt="image9"></img>
     </div>
-    <img src={image1} className="profileimage1" id="profile__img"></img>
-    <img src={image10} className="profileimage2" id="profile__img"></img>
+    <img src={image1} alt="image1" className="profileimage1" id="profile__img"></img>
+    <img src={image10} alt="image10" className="profileimage2" id="profile__img"></img>
       <h2 id="slack" className="slack">daniel07</h2>
       <h2 id="slack">Danielutibe07</h2>
     </div>
@@ -31,13 +31,13 @@ function App() {
         <a href="https://books.zuri.team/design-rules" id="book__design">Design Books</a>
       </div>
       <div className="socialIcons">
-        <img src={image7} id="slackicon"></img>
-        <img src={image8} id="giticon"></img>
+        <img src={image7} alt="image7" id="slackicon"></img>
+        <img src={image8} alt="image8" id="giticon"></img>
        </div>
       <footer>
-      <img src={image4} id="footer1"></img> 
-      <img src={image5} id="footer2"></img> 
-      <img src={image6} id="footer3"></img> 
+      <img src={image4} alt="image4" id="footer1"></img> 
+      <img src={image5} alt="image5" id="footer2"></img> 
+      <img src={image6} alt="image6" id="footer3"></img> 
       </footer>
     </div>
   );
