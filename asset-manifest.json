@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/danutibe07/Zuri-Project1.git/static/css/main.b8e019a3.css",
+    "main.js": "/danutibe07/Zuri-Project1.git/static/js/main.abc30226.js",
+    "static/media/footer3.svg": "/danutibe07/Zuri-Project1.git/static/media/footer3.601ff0479d970c740e8b7d7ba7821548.svg",
+    "static/media/img2.svg": "/danutibe07/Zuri-Project1.git/static/media/img2.859ee6c06a59d0cd5268053f028a09ce.svg",
+    "static/media/img1.svg": "/danutibe07/Zuri-Project1.git/static/media/img1.0bf2cf9f59f9d289d55b9e6352476d64.svg",
+    "static/media/footer2.svg": "/danutibe07/Zuri-Project1.git/static/media/footer2.7e5f2b13610eb170bc8e6f9354860439.svg",
+    "static/media/Hover.svg": "/danutibe07/Zuri-Project1.git/static/media/Hover.f6dcc4d11638db0d0fcbeb2b4dea347c.svg",
+    "static/media/footer1.svg": "/danutibe07/Zuri-Project1.git/static/media/footer1.fe365f435ac709b515e1114cc859cdb6.svg",
+    "static/media/slack.svg": "/danutibe07/Zuri-Project1.git/static/media/slack.87ba9caeb75d37f14fe434c266c7d9c7.svg",
+    "static/media/git.svg": "/danutibe07/Zuri-Project1.git/static/media/git.6a40f212828370260b880b93f8d36b56.svg",
+    "static/media/more.svg": "/danutibe07/Zuri-Project1.git/static/media/more.8bd1eb24137cc61f24a03120e8766b91.svg",
+    "static/media/icon.svg": "/danutibe07/Zuri-Project1.git/static/media/icon.8d9a7a1c3aa3824a2781dff6eb2e77e8.svg",
+    "index.html": "/danutibe07/Zuri-Project1.git/index.html",
+    "main.b8e019a3.css.map": "/danutibe07/Zuri-Project1.git/static/css/main.b8e019a3.css.map",
+    "main.abc30226.js.map": "/danutibe07/Zuri-Project1.git/static/js/main.abc30226.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b8e019a3.css",
+    "static/js/main.abc30226.js"
+  ]
+}
