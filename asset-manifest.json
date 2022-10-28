@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/Zuri-Project1/static/css/main.b8e019a3.css",
-    "main.js": "/Zuri-Project1/static/js/main.9aa3dad6.js",
+    "main.css": "/Zuri-Project1/static/css/main.5636d985.css",
+    "main.js": "/Zuri-Project1/static/js/main.e90d0168.js",
     "static/media/footer3.svg": "/Zuri-Project1/static/media/footer3.601ff0479d970c740e8b7d7ba7821548.svg",
     "static/media/img2.svg": "/Zuri-Project1/static/media/img2.859ee6c06a59d0cd5268053f028a09ce.svg",
     "static/media/img1.svg": "/Zuri-Project1/static/media/img1.0bf2cf9f59f9d289d55b9e6352476d64.svg",
     "static/media/footer2.svg": "/Zuri-Project1/static/media/footer2.7e5f2b13610eb170bc8e6f9354860439.svg",
     "static/media/Hover.svg": "/Zuri-Project1/static/media/Hover.f6dcc4d11638db0d0fcbeb2b4dea347c.svg",
     "static/media/footer1.svg": "/Zuri-Project1/static/media/footer1.fe365f435ac709b515e1114cc859cdb6.svg",
+    "static/media/more2.svg": "/Zuri-Project1/static/media/more2.fa426c4da053f29b08b4ac4366dbde81.svg",
     "static/media/slack.svg": "/Zuri-Project1/static/media/slack.87ba9caeb75d37f14fe434c266c7d9c7.svg",
     "static/media/git.svg": "/Zuri-Project1/static/media/git.6a40f212828370260b880b93f8d36b56.svg",
     "static/media/more.svg": "/Zuri-Project1/static/media/more.8bd1eb24137cc61f24a03120e8766b91.svg",
     "static/media/icon.svg": "/Zuri-Project1/static/media/icon.8d9a7a1c3aa3824a2781dff6eb2e77e8.svg",
     "index.html": "/Zuri-Project1/index.html",
-    "main.b8e019a3.css.map": "/Zuri-Project1/static/css/main.b8e019a3.css.map",
-    "main.9aa3dad6.js.map": "/Zuri-Project1/static/js/main.9aa3dad6.js.map"
+    "main.5636d985.css.map": "/Zuri-Project1/static/css/main.5636d985.css.map",
+    "main.e90d0168.js.map": "/Zuri-Project1/static/js/main.e90d0168.js.map"
   },
   "entrypoints": [
-    "static/css/main.b8e019a3.css",
-    "static/js/main.9aa3dad6.js"
+    "static/css/main.5636d985.css",
+    "static/js/main.e90d0168.js"
   ]
 }
