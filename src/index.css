@@ -120,6 +120,9 @@ footer{
   .sharebtn{
     display: none;
   }
+  .sharebtnn{
+    display: none;
+  }
   .morebtn{
     display: block;
     Width :40px;
