@@ -1,0 +1,174 @@
+.contact {
+    padding: 5% 25%;
+    color: #475467;
+}
+
+.contact__container {
+    width: 70%;
+}
+
+.contact__title {
+    color: #101828;
+    font-size: 36px;
+    margin-left: .5rem;
+}
+
+.first__and__last__name {
+    display: flex;
+    flex-direction: row;
+    row-gap: 20px;
+    width: 100%;
+
+}
+
+.first__and__last__name input {
+    height: 30px;
+    width: 328px;
+    left: 0px;
+    top: 26px;
+    border-radius: 8px;
+    padding: 10px 14px 10px 14px;
+}
+
+.firstname {
+    margin: 0 2rem 1.5rem 0;
+}
+
+.emailaddress {
+    margin: 0 0 1.5rem 0;
+}
+
+.email {
+    Width: 720px;
+    Height: 30px;
+    padding: 10px 14px 10px 14px;
+}
+
+input {
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid #D0D5DD;
+    font-size: 1rem;
+    color: #475467;
+    margin-top: .4rem;
+}
+
+.contact__message textarea {
+    outline: none;
+    border: none;
+    border: 1px solid #D0D5DD;
+    height: 132px;
+    width: 720px;
+    left: 0px;
+    top: 26px;
+    border-radius: 8px;
+    padding: 12px 14px 12px 14px;
+    font-size: 1.1rem;
+    color: #475467;
+    margin-top: .4rem;
+}
+
+.none::-webkit-resizer {
+    display: none;
+}
+
+.checkbox_btn {
+    height: 20px;
+    width: 20px;
+    border-radius: 1px;
+    margin: 1rem;
+}
+
+.contact__checkbox {
+    display: flex;
+    width: 750px;
+}
+
+.contact__checkbox p {
+    height: 24px;
+    width: 720px;
+    left: 0px;
+    top: 0px;
+
+}
+
+button {
+    height: 48px;
+    width: 750px;
+    left: 0px;
+    top: 426px;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 20px 12px 20px;
+    background: #1570EF;
+    color: #fff;
+    font-size: 1rem;
+}
+
+input::placeholder {
+    height: 24px;
+    width: 320px;
+    font-size: 1rem;
+}
+
+textarea::placeholder {
+    height: 24px;
+    width: 100%;
+    font-size: 1rem;
+}
+
+input[type="text"],
+input[type="email"] {
+    font-size: 1.1rem;
+    color: #475467;
+}
+
+label {
+    margin-left: .4rem;
+}
+
+.contactpage__form {
+    margin-top: 2rem;
+}
+
+.contact__subtitle {
+    height: 30px;
+    width: 720px;
+    font-size: 20px;
+    margin-left: .8rem;
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+    .contact__container {
+        width: 65%;
+    }
+    .contact {
+        padding: 5% 15%;
+    }
+    
+}
+
+/* For medium devices */
+@media screen and (max-width: 700px) {
+    .first__and__last__name {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .email , .contact__message textarea, button , textarea, .contact__subtitle , .contact__checkbox{
+        width: 328px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .email , .contact__message textarea, button , textarea, .contact__subtitle , .contact__checkbox{
+        width: 305px;
+    }
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+
+}

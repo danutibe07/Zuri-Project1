@@ -6,7 +6,7 @@ import image8 from "../../images/git.svg"
 import image9 from "../../images/more.svg"
 import image10 from "../../images/img2.svg"
 import image11 from "../../images/more2.svg"
-
+import { Link } from "react-router-dom"
 function Home() {
     return (
         <div className="App">
@@ -29,7 +29,7 @@ function Home() {
                 <a href="https://books.zuri.team/python-for-beginners?ref_id=daniel07" id="book__python" title="you can also checkout this my python book">Python Books</a>
                 <a href="https://background.zuri.team/" id="pitch" title="can do background checks for your applicants">Background Check for Coders</a>
                 <a href="https://books.zuri.team/design-rules" id="book__design" title="free design book offered by Zuri">Design Books</a>
-                <a href="/contact" id="book__design" title="free design book offered by Zuri">Contact Page</a>
+                <Link to="/contact" id="book__design" title="free design book offered by Zuri">Contact Page</Link>
             </div>
             <div className="socialIcons">
                 <img src={image7} alt="image7" id="slackicon"></img>
