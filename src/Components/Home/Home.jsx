@@ -1,14 +1,12 @@
-import image1 from "../src/images/img1.svg"
-import image2 from "../src/images/icon.svg"
-import image3 from "../src/images/Hover.svg"
-import image4 from "../src/images/footer1.svg"
-import image5 from "../src/images/footer2.svg"
-import image6 from "../src/images/footer3.svg"
-import image7 from "../src/images/slack.svg"
-import image8 from "../src/images/git.svg"
-import image9 from "../src/images/more.svg"
-import image10 from "../src/images/img2.svg"
-import image11 from "../src/images/more2.svg"
+import image1 from "../../images/img1.svg"
+import image2 from "../..//images/icon.svg"
+import image3 from "../../images/Hover.svg"
+import image7 from "../../images/slack.svg"
+import image8 from "../../images/git.svg"
+import image9 from "../../images/more.svg"
+import image10 from "../../images/img2.svg"
+import image11 from "../../images/more2.svg"
+
 function Home() {
     return (
         <div className="App">
@@ -31,16 +29,12 @@ function Home() {
                 <a href="https://books.zuri.team/python-for-beginners?ref_id=daniel07" id="book__python" title="you can also checkout this my python book">Python Books</a>
                 <a href="https://background.zuri.team/" id="pitch" title="can do background checks for your applicants">Background Check for Coders</a>
                 <a href="https://books.zuri.team/design-rules" id="book__design" title="free design book offered by Zuri">Design Books</a>
+                <a href="/contact" id="book__design" title="free design book offered by Zuri">Contact Page</a>
             </div>
             <div className="socialIcons">
                 <img src={image7} alt="image7" id="slackicon"></img>
                 <img src={image8} alt="image8" id="giticon"></img>
             </div>
-            <footer>
-                <img src={image4} alt="image4" id="footer1"></img>
-                <img src={image5} alt="image5" id="footer2"></img>
-                <img src={image6} alt="image6" id="footer3"></img>
-            </footer>
         </div>
     );
 }
