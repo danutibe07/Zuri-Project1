@@ -29,7 +29,7 @@ function Home() {
                 <a href="https://books.zuri.team/python-for-beginners?ref_id=daniel07" id="book__python" title="you can also checkout this my python book">Python Books</a>
                 <a href="https://background.zuri.team/" id="pitch" title="can do background checks for your applicants">Background Check for Coders</a>
                 <a href="https://books.zuri.team/design-rules" id="book__design" title="free design book offered by Zuri">Design Books</a>
-                <Link to="/contact" id="book__design" title="free design book offered by Zuri">Contact Page</Link>
+                <Link to="/contact" id="contact" >Contact Page</Link>
             </div>
             <div className="socialIcons">
                 <img src={image7} alt="image7" id="slackicon"></img>

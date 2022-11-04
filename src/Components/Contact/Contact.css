@@ -1,10 +1,8 @@
 .contact {
-    padding: 5% 25%;
     color: #475467;
 }
-
-.contact__container {
-    width: 70%;
+.section {
+  padding: 6rem 0 2rem;
 }
 
 .contact__title {
@@ -155,11 +153,11 @@ label {
     .first__and__last__name {
         display: flex;
         flex-direction: column;
-        width: 100%;
+        width: 328px;
         row-gap: 0 !important;
         margin-bottom: 20px;
     }
-    .email , .contact__message textarea, button , textarea, .contact__subtitle , .contact__checkbox{
+    .email , .contact__message textarea, button , textarea, .contact__subtitle , .contact__checkbox, .first__and__last__name input{
         width: 328px;
     }
     .checkbox_btn {
@@ -169,15 +167,32 @@ label {
 }
 
 @media screen and (max-width: 576px) {
-    .email , .contact__message textarea, button , textarea, .contact__subtitle , .contact__checkbox{
+    .email , .contact__message textarea, button , textarea, .contact__subtitle , .contact__checkbox , .first__and__last__name input{
         width: 305px;
     }
     .contact__title{
-        width: 100%;
+        width: 300px;
     }
 }
 
 /* For small devices */
-@media screen and (max-width: 350px) {
-
+@media screen and (max-width: 414px) {
+    .email , .contact__message textarea, button , textarea, .contact__checkbox , .first__and__last__name input{
+        width: 250px !important;
+    }
+    .contact__subtitle {
+        width: 300px;
+    }
+    .contact__checkbox  {
+        width: 400px;
+        font-size: 13px;
+        color: blue;
+    }
+    .contact{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+.text-danger{
+    color: rgb(239, 137, 137);
 }
