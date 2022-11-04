@@ -73,8 +73,8 @@ input {
 }
 
 .checkbox_btn {
-    height: 20px;
-    width: 20px;
+    height: 22px;
+    width: 22px;
     border-radius: 1px;
     margin: 1rem;
 }
@@ -156,15 +156,24 @@ label {
         display: flex;
         flex-direction: column;
         width: 100%;
+        row-gap: 0 !important;
+        margin-bottom: 20px;
     }
     .email , .contact__message textarea, button , textarea, .contact__subtitle , .contact__checkbox{
         width: 328px;
+    }
+    .checkbox_btn {
+        height: 42px;
+        width: 42px;
     }
 }
 
 @media screen and (max-width: 576px) {
     .email , .contact__message textarea, button , textarea, .contact__subtitle , .contact__checkbox{
         width: 305px;
+    }
+    .contact__title{
+        width: 100%;
     }
 }
 
