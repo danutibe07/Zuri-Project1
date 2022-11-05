@@ -6,7 +6,7 @@ import Footer from './Components/Footer/Footer';
 const App = () => {
   return (
     <div className='App'>
-      <BrowserRouter basename="/">
+      <BrowserRouter>
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/contact" element={<Contact />} />
