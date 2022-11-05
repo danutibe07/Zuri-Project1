@@ -180,10 +180,7 @@ footer {
   footer {
     display: flex;
     flex-direction: column;
-    justify-items: left;
-    align-items: flex-start;
-    padding-left: 33%;
-    padding-right: 15%;
+    justify-items: center;
   }
 
   #footer1,
@@ -194,11 +191,6 @@ footer {
     margin: 0;
   }
 }
-/* @media screen and (max-width:375) {
-  footer{
-    padding-left: 120px !important;
-  }
-} */
 .slack {
   display: none;
 }

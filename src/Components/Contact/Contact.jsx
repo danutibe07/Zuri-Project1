@@ -64,13 +64,13 @@ const Contact = () => {
           <div className="first__and__last__name">
             <div className="firstname">
               <label htmlFor="" className="contactpage__label">First name</label>  <br />
-              <input type="text" id='first_name' className="first__name" placeholder='Enter your first name' onChange={handleChange}
+              <input type="text" id='first_name' className="first_name" placeholder='Enter your first name' onChange={handleChange}
                 value={inputField.firstname} name="firstname" />
               <p className="text-danger">{inputErrors.firstname}</p>
             </div>
             <div className="lastname">
               <label htmlFor="" className="contactpage__label">Last name</label>  <br />
-              <input type="text" id='last_name' className="last__name" placeholder='Enter your last name' onChange={handleChange} value={inputField.lastname} name="lastname" />
+              <input type="text" id='last_name' className="last_name" placeholder='Enter your last name' onChange={handleChange} value={inputField.lastname} name="lastname" />
               <p className="text-danger">{inputErrors.lastname}</p>
             </div>
           </div>
