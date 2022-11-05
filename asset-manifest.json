@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Zuri-Project1/static/css/main.f28a2624.css",
-    "main.js": "/Zuri-Project1/static/js/main.e8251617.js",
+    "main.js": "/Zuri-Project1/static/js/main.62943125.js",
     "static/media/footer3.svg": "/Zuri-Project1/static/media/footer3.601ff0479d970c740e8b7d7ba7821548.svg",
     "static/media/img2.svg": "/Zuri-Project1/static/media/img2.859ee6c06a59d0cd5268053f028a09ce.svg",
     "static/media/img1.svg": "/Zuri-Project1/static/media/img1.0bf2cf9f59f9d289d55b9e6352476d64.svg",
@@ -15,10 +15,10 @@
     "static/media/icon.svg": "/Zuri-Project1/static/media/icon.8d9a7a1c3aa3824a2781dff6eb2e77e8.svg",
     "index.html": "/Zuri-Project1/index.html",
     "main.f28a2624.css.map": "/Zuri-Project1/static/css/main.f28a2624.css.map",
-    "main.e8251617.js.map": "/Zuri-Project1/static/js/main.e8251617.js.map"
+    "main.62943125.js.map": "/Zuri-Project1/static/js/main.62943125.js.map"
   },
   "entrypoints": [
     "static/css/main.f28a2624.css",
-    "static/js/main.e8251617.js"
+    "static/js/main.62943125.js"
   ]
 }
