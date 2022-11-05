@@ -27,14 +27,12 @@ const Contact = () => {
 
     if (Object.keys(inputErrors).length === 0 && isSubmit) {
       alert("mssg sent")
-        .then(() =>
           setInputField({
             firstname: "",
             lastname: "",
             email: "",
             message: "",
           })
-        );
     }
   };
 
@@ -57,7 +55,6 @@ const Contact = () => {
     }
     return errors;
   };
-
   return (
     <div className="contactpage__container">
       <section className="contactpage">
@@ -88,9 +85,6 @@ const Contact = () => {
             onFocus ={  () => setInputField ({
                     ...inputField,["message"]: `Hey `+ name +` , hope you are doing great, let collaborate on project xyz`,
                     })} 
-            onBlur = {  () => setInputField ({
-                      ...inputField,["message"]: "",
-                      })}
             >
             </textarea>
             <p className="text-danger">{inputErrors.message}</p>
@@ -101,7 +95,6 @@ const Contact = () => {
           </div>
           <button id="btn__submit" type='submit'>Send Message</button>
         </form>
-
       </section>
     </div>
 
