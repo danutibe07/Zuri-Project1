@@ -2,7 +2,7 @@ import React from 'react'
 import "./Contact.css"
 import { useState } from 'react';
 const Contact = () => {
-  const name = "daniel07";
+  const name = "Akpan Daniel";
   const [inputErrors, setInputErrors] = useState({});
   const [isSubmit, setIsSubmit] = useState(false);
   const [inputField, setInputField] = useState({
@@ -84,7 +84,15 @@ const Contact = () => {
           </div>
           <div className="contact__message">
             <label htmlFor="" className="contactpage__label">Message</label>  <br />
-            <textarea name="message" type="text" className='none' id="message" cols="30" rows="10" placeholder="Send me a message and I'll reply you as soon as possible..." value={inputField.message} onChange={handleChange} ></textarea>
+            <textarea name="message" type="text" className='none' id="message" cols="30" rows="10" placeholder="Send me a message and I'll reply you as soon as possible..." value={inputField.message} onChange={handleChange} 
+            onFocus ={  () => setInputField ({
+                    ...inputField,["message"]: `Hey `+ name +` , hope you are doing great, let collaborate on project xyz`,
+                    })} 
+            onBlur = {  () => setInputField ({
+                      ...inputField,["message"]: "",
+                      })}
+            >
+            </textarea>
             <p className="text-danger">{inputErrors.message}</p>
             <div className="contact__checkbox">
               <input type="checkbox" className='checkbox_btn' required />
