@@ -1,6 +1,6 @@
 import React from 'react'
 import Home from './Components/Home/Home'
-import { BrowserRouter , Routes , HashRouter, Route } from 'react-router-dom';
+import {  Routes , HashRouter, Route } from 'react-router-dom';
 import Contact from './Components/Contact/Contact'
 import Footer from './Components/Footer/Footer';
 const App = () => {

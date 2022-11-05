@@ -89,11 +89,12 @@ const Contact = () => {
             </textarea>
             <p className="text-danger">{inputErrors.message}</p>
             <div className="contact__checkbox">
-              <input type="checkbox" className='checkbox_btn' required />
-              <p>You agree to providing your data to {name} who may contact you.</p>
+              <input type="checkbox" className='checkbox_btn' id="check" name="check" value="Submit" required/>
+                  <p>You agree to providing your data to {name} who may contact you.</p>
             </div>
           </div>
-          <button id="btn__submit" type='submit'>Send Message</button>
+          <button id="btn__submit" type='submit'
+          >Send Message</button>
         </form>
       </section>
     </div>
